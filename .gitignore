@@ -1,0 +1,81 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+*.conda
+*.env
+*.venv
+
+# ------------------------------
+# Jupyter / VS Code
+# ------------------------------
+.ipynb_checkpoints/
+.jupyter/
+.lab/
+.jupyterlab-settings/
+.local/share/jupyter/
+.vscode/
+.history/
+*.code-workspace
+
+# ------------------------------
+# PyTorch
+# ------------------------------
+*.pt
+*.pth
+*.ckpt
+# TorchServe artifacts
+model_store/
+logs/
+
+# ------------------------------
+# TensorFlow
+# ------------------------------
+*.pb
+*.h5
+*.ckpt.*
+checkpoint
+events.out.tfevents.*
+# TF Lite / SavedModel
+saved_model/
+*.tflite
+# TensorBoard logs
+logs/
+tensorboard/
+
+# ------------------------------
+# scikit-learn
+# ------------------------------
+# joblib or pickle artifacts
+*.joblib
+*.pkl
+*.pickle
+
+# ------------------------------
+# General ML outputs
+# ------------------------------
+outputs/
+models/
+checkpoints/
+runs/
+experiments/
+
